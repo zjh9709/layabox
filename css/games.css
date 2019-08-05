@@ -1,0 +1,113 @@
+.main_box{
+	max-width: 1366px;
+	margin: auto;
+	margin-top:50px;
+}
+.header{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+
+}
+.header .navbar{
+	margin: 0;
+	
+}
+.header .navbar-default{
+	background-color: #222;
+	border-color: #222;
+	
+}
+.header .navbar-brand{
+	padding: 7px;
+	
+}
+.header .navbar-default .navbar-nav > li > a{
+	/*color:#9b9b9b;*/
+	color:#fff;
+		
+}
+@media(max-width: 995px) and (min-width: 745px){
+	.header .navbar-default .navbar-nav > li > a{
+		padding: 15px 5px;
+		font-size: 12px;	
+	}
+	
+}
+.header .navbar-default .navbar-nav > .active > a {
+	background: #080808;
+	color:#fff ;
+
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+	background: rgba(34,34,34,0.5);
+	/*color:#fff ;*/
+}
+
+
+.media-heading{
+	float: right;
+	margin-top: 40px;
+	padding-right: 40px;
+
+}
+.media-body{
+	float: right;
+	color: #898989;
+	margin:10px 0 10px;
+	font-size: 12px; 
+	padding-right: 40px;
+}
+
+
+
+.lieren .row  > div{
+	padding: 20px 20px 20px;
+}
+
+.media-heading1{
+	float: left;
+	margin-top: 40px;
+}
+.media-body1{
+	float: right;
+	color: #898989;
+	margin:10px 0 10px;
+	font-size: 12px; 
+}
+
+.shangbazhugong .row  > div{
+	padding: 20px 20px 20px;
+}
+
+.case{
+	padding: 30px 0 30px;
+}
+.case h1{
+	padding: 30px 0 30px;
+}
+.case01 p {
+	width: 303px;
+	padding:10px 0 30px;
+	text-align: center;
+}
+
+
+
+
+
+.footer{
+	width: 100%;
+	background: #3b3b3b;
+	padding: 40px 0 40px;
+}
+.footer h6{
+	color: #a1a3ab;
+	font-size:14px; 
+}
+.footer a{
+	color: #a1a3ab;
+	font-size: 12px;
+}

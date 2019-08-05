@@ -1,0 +1,165 @@
+.main_box{
+	max-width: 1366px;
+	margin: auto;
+	margin-top:52px;
+}
+.header{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+
+}
+.header .navbar{
+	margin: 0;
+	
+}
+.header .navbar-default{
+	background-color: #222;
+	border-color: #222;
+	
+}
+.header .navbar-brand{
+	padding: 7px;
+	
+}
+.header .navbar-default .navbar-nav > li > a{
+	color:#9b9b9b;
+		
+}
+@media(max-width: 995px) and (min-width: 745px){
+	.header .navbar-default .navbar-nav > li > a{
+		padding: 15px 5px;
+		font-size: 12px;	
+	}
+	
+}
+.header .navbar-default .navbar-nav > .active > a {
+	background: #080808;
+	color:#fff ;
+
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+	background: #080808;
+	color:#fff ;
+}
+
+
+
+
+
+
+.news{
+	border: 40px 0 0;
+}
+ .news h1{
+	color: #ff6b08;
+}
+.news .news1{
+	/*width: 302px;*/
+	height: 180px;
+	overflow: hidden;
+	padding: 20px 0 20px;
+}
+
+.news p{
+	text-align: center;
+	width: 302px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	background: rgba(53,32,20,0.5);
+	margin: 0;padding: 0;
+}
+.news .news1:hover p{
+	position: absolute;
+	top:150px;
+	/*left: 0px;*/
+	text-align: center;
+
+}
+.t{
+	/*padding-left: 30px;*/
+}
+.zhongbu{
+	padding: 50px 0 30px;
+}
+.media{
+	padding: 30px 0;
+}
+.media-heading{
+	color: #000;
+}
+
+.media-heading:hover{
+	color: #ff6900;
+}
+
+
+
+
+@media(max-width: 600px){
+	.zhongbu{
+		padding: 0;
+	}
+	.zhongbu h4{
+		font-size: 14px;
+		
+	}
+	.zhongbu p{
+		font-size: 12px;
+	}
+	.media{
+		padding: 15px 0;
+	}
+}
+
+.check{
+	width: 100px;height: 32px;
+	line-height: 32px;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #ff6900;
+	border:1px solid #ff6900;
+}
+.check:hover{
+	color: #fff;
+	background: #ff6900;
+}
+.row1 {
+	width:100%;
+	text-align: center;
+}
+@media(max-width: 600px){
+	.check{
+		width: 60px;
+		height: 28px;
+		line-height: 28px;
+		float: right;
+		border-radius: 10px;
+		text-align: center;
+		font-size: 12px;
+		color: #ff6900;
+		border:1px solid #ff6900;
+	}
+}
+
+
+
+
+.footer{
+	width: 100%;
+	background: #3b3b3b;
+	padding: 40px 0 40px;
+}
+.footer h6{
+	color: #a1a3ab;
+	font-size:14px; 
+}
+.footer a{
+	color: #a1a3ab;
+	font-size: 12px;
+}

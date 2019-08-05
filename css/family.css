@@ -1,0 +1,155 @@
+.main_box{
+	max-width: 1366px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background: #222;
+	/*position: fixed;*/
+	/*top: 0;*/
+	z-index: 99;
+
+}
+.header .navbar{
+	margin: 0;
+	
+}
+.header .navbar-default{
+	background-color: #222;
+	border-color: #222;
+	
+}
+.header .navbar-brand{
+	padding: 7px;
+	
+}
+.header .navbar-default .navbar-nav > li > a{
+	color:#9b9b9b;
+		
+}
+@media(max-width: 995px) and (min-width: 745px){
+	.header .navbar-default .navbar-nav > li > a{
+		padding: 15px 5px;
+		font-size: 12px;	
+	}
+	
+}
+.header .navbar-default .navbar-nav > .active > a {
+	background: #080808;
+	color:#fff ;
+
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+	background: #080808;
+	color:#fff ;
+}
+
+
+.Laya{
+	width: 100%;
+	padding: 30px 0 30px;
+	background: #8bc01f;
+}
+.Laya1{
+	width: 100%;
+	background: #8bc01f;
+}
+.media{
+	padding: 30px 20px 30px;
+}
+.media h1{
+	font-size: 48px;
+	color: #fff;
+}
+.media h3{
+	color: #fff;
+}
+
+.pull-left {
+	width: 50px;height: 50px;
+	background: #fff;
+	text-decoration: none;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: center;
+	color: #8bc01f;
+}
+
+.media-body p{
+	padding: 20px 0 ;
+	color: #fff;
+}
+.media-body input{
+	width: 100px;height: 50px;
+	color: #8bc01f;
+	font-size: 14px;
+	border-radius: 10px;
+}
+
+@media(max-width: 500px){
+	.pull-left {
+		width: 30px;height: 30px;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.media h1{
+		font-size: 24px;
+	}
+	.media h3{
+		font-size: 16px;
+	}
+	.media-body p{
+		padding: 25px 0 ;
+		font-size:14px; 
+	}
+	.media-body input{
+		width: 70px;height: 30px;
+		font-size: 12px;
+		border-radius: 10px;
+	}
+}
+
+.Laya1{
+	padding: 30px 0 30px;
+	width: 100%;
+	background: #3393df;
+}
+.Laya1 img{
+	float: left;
+}
+.xxb{
+	margin-top: 150px;
+}
+@media(max-width: 500px){
+	.media-body p{
+		padding: 25px 0 ;
+		font-size:12px; 
+	}
+	.media-body input{
+		width: 70px;height: 30px;
+		font-size: 12px;
+		border-radius: 10px;
+	}
+}
+
+
+
+
+.Laya2{
+	width: 100%;
+	padding: 40px 0 40px;
+}
+
+
+.Laya2 .tpcenter{
+	width: 100%;
+	text-align: center;
+}
+
+.laya3{
+	width: 100px;height: 50px;
+	border: 1px solid red;
+	color: #8bc01f;
+	/*font-size: 14px;*/
+	/*border-radius: 10px;*/
+}

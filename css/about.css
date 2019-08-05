@@ -1,0 +1,47 @@
+.main_box{
+	max-width: 1366px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background: #222;
+	/*position: fixed;*/
+	/*top: 0;*/
+	z-index: 99;
+
+}
+.header .navbar{
+	margin: 0;
+	
+}
+.header .navbar-default{
+	background-color: #222;
+	border-color: #222;
+	
+}
+.header .navbar-brand{
+	padding: 7px;
+	
+}
+.header .navbar-default .navbar-nav > li > a{
+	color:#9b9b9b;
+		
+}
+@media(max-width: 995px) and (min-width: 745px){
+	.header .navbar-default .navbar-nav > li > a{
+		padding: 15px 5px;
+		font-size: 12px;	
+	}
+	
+}
+.header .navbar-default .navbar-nav > .active > a {
+	background: #080808;
+	color:#fff ;
+
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+	background: #080808;
+	color:#fff ;
+}
+
+

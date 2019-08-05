@@ -1,0 +1,227 @@
+.main_box{
+	max-width: 1366px;
+	margin: auto;
+	margin-top:52px;
+}
+.header{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+
+}
+.header .navbar{
+	margin: 0;
+	
+}
+.header .navbar-default{
+	background-color: #222;
+	border-color: #222;
+	
+}
+.header .navbar-brand{
+	padding: 7px;
+	
+}
+.header .navbar-default .navbar-nav > li > a{
+	color:#9b9b9b;
+		
+}
+@media(max-width: 995px) and (min-width: 745px){
+	.header .navbar-default .navbar-nav > li > a{
+		padding: 15px 5px;
+		font-size: 12px;	
+	}
+	
+}
+.header .navbar-default .navbar-nav > .active > a {
+	background: #080808;
+	color:#fff ;
+
+}
+.header .navbar-default .navbar-nav > li > a:hover{
+	background: #080808;
+	color:#fff ;
+}
+
+
+
+.banner{
+	width: 100%;
+	margin-top: 0px;
+}
+.left{
+	/*top: 90px;*/
+}
+
+
+
+.LayaFlash{
+	width: 100%;
+	background: #fbfaf7;
+	padding: 70px 0 50px;
+}
+.LayaFlash h1{
+	font-size: 47px;
+	color: #0078d7;
+}
+.LayaFlash h2{
+	color: #666;
+	margin-bottom: 50px;
+}
+.LayaFlash .Flash > div{
+	margin-bottom: 40px;
+}
+
+
+
+@media(max-width: 500px){
+	.LayaFlash{
+		padding: 0;
+	}
+	.LayaFlash h1{
+		font-size: 30px;
+		
+	}
+	.LayaFlash h2{
+		font-size: 18px;
+	}
+}
+.Layabox {
+	width: 100%;
+	padding: 60px 0 60px;
+}
+.Layabox h1{
+	font-size: 47px;
+	color: #8fc31f;
+}
+.LayaFlash .box > div{
+	margin-bottom: 40px;
+}
+.Layabox li{
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+
+.Layaboxcp{
+	width: 100%;
+	background: #0079d7;
+	padding: 40px 0 40px;
+}
+.Layaboxcp h1{
+	color:#fff;
+	margin: auto;
+	font-size: 47px;
+	text-align: center;
+	padding: 30px 0 30px;
+}
+.Layaboxcp h4{
+	color:#fffefe;
+	font-size: 30px;
+	padding: 30px 0 0;
+}
+.media-object1{
+	padding: 30px 0 0;
+}
+.Layaboxcp .media-body{
+	color:#fffefe;
+	font-size: 14px;
+}
+@media(max-width: 500px){
+	.Layaboxcp {
+		padding: 0;
+	}
+	.Layaboxcp  h1{
+		font-size: 30px;
+		
+	}
+	.Layaboxcp  h4{
+		font-size: 18px;
+	}
+}
+
+.Layabox2{
+	width: 100%;
+	padding: 60px 30px 60px;
+}
+
+.Layabox2 .op{
+	text-align: center;
+}
+
+.Layabox2 h1{
+	color: #2a2a2a;
+	font-size: 47px;
+	padding: 30px 0 30px;
+}
+.Layabox2 h1 a{
+	font-size: 14px;
+}
+
+
+.Layabox2 .row > div{
+	/*padding: 10px 0 10px;*/
+}
+
+/*@media(max-width: 500px){
+	.Layabox2 {
+		padding: 0;
+	}
+	.Layabox2  h1{
+		font-size: 30px;
+	}
+	.Layabox2  h2{
+		font-size: 18px;
+	}
+}*/
+
+
+
+.Layabox3{
+	width: 100%;
+	background: #f4f4f4;
+	padding: 40px 0 40px;
+}
+.Layabox3 .row  > div{
+	padding: 20px 20px 20px;
+}
+
+
+.footer{
+	width: 100%;
+	background: #3b3b3b;
+	padding: 40px 0 40px;
+}
+.footer h6{
+	color: #a1a3ab;
+	font-size:14px; 
+}
+.footer a{
+	color: #a1a3ab;
+	font-size: 12px;
+}
+
+
+
+
+
+
+.tpfd img{
+	float:right; 
+	padding:10px 5px 0; 
+}
+.tpfd:hover div{
+	display: block;
+}
+
+.tpfd{
+	position: relative;
+}
+.tpfd>div{
+	position: absolute;
+	bottom: 90%;
+	left: 72%;
+	display: none;
+}
