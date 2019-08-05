@@ -1,0 +1,96 @@
+轮播图插件
+
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/wp-content/uploads/2014/07/slide1.png" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="/wp-content/uploads/2014/07/slide2.png" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="/wp-content/uploads/2014/07/slide3.png" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;
+    </a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;
+    </a>
+</div>
+
+多媒体对象
+
+<div class="media">
+<a class="pull-left" href="#">
+<img class="media-object" src="/wp-content/uploads/2014/06/64.jpg"
+alt="媒体对象">
+</a>
+<div class="media-body">
+<h4 class="media-heading">媒体标题</h4>
+这是一些示例文本。这是一些示例文本。
+这是一些示例文本。这是一些示例文本。
+这是一些示例文本。这是一些示例文本。
+这是一些示例文本。这是一些示例文本。
+这是一些示例文本。这是一些示例文本。
+</div>
+</div>
+
+
+视频
+<div class="video">
+<video poster="images/game.jpg" width="374px" height="204px" src="video/layabox_product.mp4" controls="controls">
+您的浏览器不支持 video 标签。
+</video>
+</div>
+
+
+做项目之前 一定要做项目的目录部署
+	wengdo
+		css
+		images
+		js
+		bootstrap
+		index.html
+		case.html
+		about.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
