@@ -163,3 +163,22 @@
 	color: #a1a3ab;
 	font-size: 12px;
 }
+
+
+.tpfd {
+	float:right; 
+	padding:10px 5px 0; 
+}
+/*.tpfd:hover div{
+	display: block;
+}
+
+.tpfd{
+	position: relative;
+}
+.tpfd>div{
+	position: absolute;
+	bottom: 90%;
+	left: 72%;
+	display: none;
+}*/
